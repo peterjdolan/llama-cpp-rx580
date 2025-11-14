@@ -1,0 +1,7 @@
+---
+services:
+  llama:
+    build: .
+    devices:
+      - "/dev/dri:/dev/dri"
+    restart: unless-stopped
